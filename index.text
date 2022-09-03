@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<body style="background-image:url(n.jpg)">
+<table border="1" style="background:#004080 ; width:100%">
+<thead style="background:#004080;color:#ffffff">
+
+<tr>
+<th>Name</th>
+<th>G/B</th>
+<th>adrress</th>
+<th>E-mail</th>
+<th>age</th>
+
+</tr>
+</thead>
+<tbody style="background:#004080;color:#ffffff">
+<tr>
+<td>nada</td>
+<td rowspan="2">girls</td>
+<td>sohag</td>
+<td>n@gamil.com</td>
+<td>20</td>
+</tr>
+<tr>
+<td>ereen</td>
+<td>sohag</td>
+<td>e@gamil.com</td>
+<td>20</td>
+</tr>
+<tr>
+<td>kareem</td>
+<td rowspan="2">boys</td>
+<td>sohag</td>
+<td>k@gamil.com</td>
+<td>20</td>
+</tr>
+<tr>
+<td>abanoub</td>
+<td>sohag</td>
+<td>a@gamil.com</td>
+<td>14</td>
+</tr>
+</tbody>
+<tfoot style="background:#00264d;color:#ffffff">
+<tr>
+<td colspan="4">sum age:</td>
+<td>74</td>
+</tfoot>
+</table>
+<br/>
+<hr>
+<hr>
+<br/>
+<p style="color:#661a00"> fill the follwing form</p>
+<br/>
+<br/>
+<form>
+<label style="color:#661a00">name</label>
+<input type="name" placeholder="Write name"/>
+<br/>
+<br/>
+<label style="color:#661a00">age</label>
+<input type="age" placeholder="Write age"/>
+<br/>
+<br/>
+<label style="color:#661a00">address</label>
+<input type="address" placeholder="address"/>
+<br/>
+<br/>
+<label style="color:#661a00">password</label>
+<input type="password" placeholder="password"/>
+<br/>
+<br/>
+<label style="color:#661a00">email</label>
+<input type="email" placeholder="Write email"/>
+<br/>
+<br/>
+<input type="Submit" name ="Submit" value="Submit">
+<input type="Reset" name ="Reset" value="Reset">
+
+</form>
+</body>
+</html>
